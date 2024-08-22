@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Diagrama de conservación de alimentos, detallando métodos como el uso de sal, vinagre, refrigeración y congelación. También incluye aspectos de sabor y color, prácticas sanitarias y preparación y almacenamiento, con énfasis en la higiene y prevención de enfermedades.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

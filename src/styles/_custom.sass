@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 20%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 50%
 
 
 @keyframes float1
@@ -17,4 +22,72 @@
 
   100%
     transform: translateY(0px)
-
+.mn
+  margin: 0 -3rem
+.titulo-tres
+  position: relative
+  background-color: #f08c32
+  border-radius: 0px 20px 20px 0px 
+  display: inline-block
+  padding: .6rem
+  margin-bottom: 2rem
+  &::before
+    content: url(../assets/curso/temas/icon.svg)
+    position: absolute
+    top: 0
+    left: 0
+    transform: translate(-40%,-12%)
+    
+  h3 
+    margin-bottom: 0
+    margin-left: 40px
+    margin-right: 20px
+.tabs-b__content-item, .tabs-b__tab--active
+  background-color: #f7f4ef !important
+.tabs-b__tab
+  background-color: #b4dabe
+.tarjeta--ocre
+  background-color: #ece4d8
+.acordion__activo
+  background-color: #fdf2e9
+.acordion__accion__btn--a
+  background-color: #F9C047
+.fondo-1
+  background-image: url(../assets/curso/temas/fondo-1.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: start
+.fondo-2
+  background-image: url(../assets/curso/temas/fondo-2.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: start
+.fondo-3
+  background-image: url(../assets/curso/temas/fondo-3.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: start
+.fondo-pasos
+  background-image: url(../assets/curso/temas/fondo-pasos.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: start
+.color-hover
+  background-color: #e9f5ec
+  transition: background-color .2s ease-in-out
+  &:hover
+    background-color: #acdbb9
+.fa-angle-right-circle
+  content: url('../assets/curso/temas/carne.svg')
+.ml-lg
+  @media ( min-width: $bp-min-lg )
+    position: inherit
+    left: -30px
+    transform: translateX(-40px)
+.pasos-b__header__btn--right, .pasos-b__header__btn--left, .linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left, .slyder-a__btn--sigt, .slyder-a__btn--atrs, 
+  background-color: #f9c047
+  border: 0
+  opacity: 1
+    
+    
+  

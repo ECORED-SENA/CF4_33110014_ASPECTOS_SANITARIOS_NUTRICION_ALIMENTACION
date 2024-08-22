@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Conservación y manipulación de los alimentos',
+    descripcionCurso:
+      'Este componente formativo abarca la conservación y manipulación de alimentos, incluyendo prácticas sanitarias, precauciones en la preparación y almacenamiento, y métodos de conservación para frutas, verduras y carnes. Está diseñado para que los aprendices comprendan estos aspectos y puedan realizar actividades de manera segura y efectiva, garantizando la calidad y seguridad alimentaria.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
       },
     ],
   },
@@ -31,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conservación de los alimentos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Sabor de un alimento',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Color del alimento',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Los sentidos pueden fallar',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +60,38 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Prácticas sanitarias y de salud',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Precauciones en la manipulación',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Preparación de alimentos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Condiciones de almacenamiento',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Conservación de frutas, hortalizas y carnes',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Almacenamiento en frío',
+            hash: 't_3_1',
+          },
+        ],
       },
     ],
     subMenu: [
