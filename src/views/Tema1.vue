@@ -6,6 +6,8 @@
       .titulo-principal__numero
         span 1
       h1 Conservación de los alimentos
+
+    p.mb-5 Desde los inicios de la humanidad, el hombre se ha dado cuenta de que #[strong los alimentos son una fuente importante de nutrición,] ya que contienen #[strong carbohidratos, grasas, proteínas, vitaminas y minerales], sustancias necesarias para el buen desarrollo fisiológico del ser humano. Por lo tanto, desarrolló técnicas para suplir las necesidades alimentarias, enfrentándose al problema de que muchos de estos productos se deterioraban con facilidad. Así, comenzó a buscar técnicas o métodos de conservación que prolongaran la vida útil de los alimentos.  
     .row.justify-content-center.mb-5
       .col-lg-8
         .tarjeta(style="background-color: #ece4d8")
@@ -30,8 +32,8 @@
               .p-4.d-flex.align-items-center
                 p.mb-0 Esto se puede demostrar con un sencillo experimento: cubriendo los ojos, tapando la nariz y probando dos helados. Se comprobará que bajo estas condiciones no se puede distinguir con facilidad entre un helado de vainilla y uno de chocolate.
     p.mb-5(data-aos='fade-right') En la naturaleza, solo existen cuatro sabores fundamentales:
-    img.mn(src='@/assets/curso/temas/5.svg', alt='').mb-4
-    p.mb-5(data-aos='fade-right') Es importante notar que algunas personas tienen dificultades para percibir el sabor de los alimentos, así como para distinguir los colores, lo que afecta en gran medida su percepción del gusto. El sentido del olor y del gusto son sentidos químicos, siendo el sentido del olfato 2,500 veces más sensible que el sentido del gusto.
+    img(src='@/assets/curso/temas/5.svg', alt='').mb-4
+    p.mb-5(data-aos='fade-right') Es importante notar que algunas personas tienen dificultades para percibir el sabor de los alimentos, así como para distinguir los colores, lo que afecta en gran medida su percepción del gusto. El sentido del olor y del gusto son sentidos químicos, siendo #[strong el sentido del olfato 2,500 veces más sensible que el sentido del gusto.]
       br
       br
       |La clasificación común de los olores incluye:
@@ -177,15 +179,15 @@
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--ocre")
-          .p-4(titulo="Alimentos comprados")
+          .p-4(titulo="Calidad de los aceites comestibles")
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle
-                p.mb-0 Asegurarse de que los alimentos se conserven en frío y observar las prácticas de higiene en el lugar de compra.
-          .p-4(titulo="Calidad de los aceites comestibles")
-            p.mb-0 Los aceites de alta calidad tienen un sabor dulce y una apariencia brillante.
+                p.mb-0 Los aceites de alta calidad tienen un sabor dulce y una apariencia brillante.
           .p-4(titulo="Descomposición y sabor a rancio")
             p.mb-0 Las grasas y aceites descompuestos se detectan fácilmente por su sabor a rancio.
+          .p-4(titulo="Estabilidad en ausencia de oxígeno")
+            p.mb-0 Las grasas y aceites son relativamente estables a altas temperaturas sin oxígeno.
           .p-4(titulo="Descomposición en presencia de oxígeno")
             p.mb-0 La exposición al oxígeno acelera la descomposición de grasas y aceites, resultando en un sabor fuerte.
       .col-lg-6.col-7: img(src='@/assets/curso/temas/25.png', alt='')

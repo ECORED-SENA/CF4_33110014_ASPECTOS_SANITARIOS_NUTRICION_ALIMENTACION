@@ -143,7 +143,7 @@ export default {
     {
       tema: 'Conservación de los alimentos',
       referencia:
-        'Organización Panamericana de la Salud. (2014). Manual para manipuladores de alimentos. Organización Panamericana de la Salud.',
+        'Organización Panamericana de la Salud. (2014). <i>Manual para manipuladores de alimentos.</i> Organización Panamericana de la Salud.',
       tipo: 'Documento',
       descarga:
         'https://www3.paho.org/hq/dmdocuments/manual-manipuladores-alimentos-2014.pdf',
@@ -179,7 +179,7 @@ export default {
     {
       tema: 'Condiciones de almacenamiento',
       referencia:
-        'Ministerio de Salud y Protección Social. (s.f.). Guía de inocuidad de alimentos en establecimientos de almacenamiento.',
+        'Ministerio de Salud y Protección Social. (s.f.). <i>Guía de inocuidad de alimentos en establecimientos de almacenamiento.</i>',
       tipo: 'Guía',
       descarga:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-almacenamiento.pdf',
@@ -319,11 +319,6 @@ export default {
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
       ],
     },
     {
@@ -331,11 +326,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

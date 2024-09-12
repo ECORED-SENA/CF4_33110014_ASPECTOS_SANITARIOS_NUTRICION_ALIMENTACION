@@ -176,19 +176,19 @@
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-angle-right-circle
-                    p.mb-0 Vaca: Hasta tres semanas
+                    p.mb-0 Vaca: Hasta tres semanas.
                   li.d-flex
                     i.fas.fa-angle-right-circle
-                    p.mb-0 Ternera: 1 - 3 semanas
+                    p.mb-0 Ternera: 1 - 3 semanas.
                   li.d-flex
                     i.fas.fa-angle-right-circle
-                    p.mb-0 Cordero: 10 - 15 días
+                    p.mb-0 Cordero: 10 - 15 días.
                   li.d-flex
                     i.fas.fa-angle-right-circle
-                    p.mb-0 Cerdo: 1 - 2 semanas
+                    p.mb-0 Cerdo: 1 - 2 semanas.
                   li.d-flex
                     i.fas.fa-angle-right-circle
-                    p.mb-0 Despojos comestibles: 7 días
+                    p.mb-0 Despojos comestibles: 7 días.
     .titulo-tres: h3 Congelación
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")

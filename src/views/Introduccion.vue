@@ -16,7 +16,7 @@
           | La correcta conservación de los alimentos es esencial para mantener su calidad y seguridad. Desde tiempos antiguos, el ser humano ha desarrollado diversas técnicas para prolongar la vida útil de los alimentos y prevenir su deterioro. En la actualidad, estos métodos se han perfeccionado, combinando avances tecnológicos con prácticas tradicionales.
       .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/1.png', alt='')
     .tarjeta.p-5(style="background-color: #ece4d8 ")
-      p.mb-0 Además de la conservación, este material destaca la importancia de las prácticas sanitarias en la manipulación de los alimentos. La higiene en la preparación y el almacenamiento adecuado son cruciales para evitar la contaminación y garantizar que los alimentos sean seguros para el consumo
+      p.mb-0 Además de la conservación, este material destaca la importancia de las prácticas sanitarias en la manipulación de los alimentos. La higiene en la preparación y el almacenamiento adecuado son cruciales para evitar la contaminación y garantizar que los alimentos sean seguros para el consumo.
 </template>
 
 <script>
