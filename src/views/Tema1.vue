@@ -15,7 +15,7 @@
             .col-lg-3.d-none.d-lg-block: img(src='@/assets/curso/temas/2.png', alt='')
             .col-lg-9
               .p-4
-                p.mb-0 Para ello, empleó la sal, método muy utilizado por los antepasados para conservar las carnes, y el vinagre, que más adelante alcanzó una gran expansión en la industria química..
+                p.mb-0 Para ello, empleó la sal, método muy utilizado por los antepasados para conservar las carnes, y el vinagre, que más adelante alcanzó una gran expansión en la industria química.
     .row.justify-content-center.mb-5
       .col-lg-9.mb-lg-0.mb-3(data-aos="fade-right")
         p.mb-0 Actualmente, es un hecho que más personas tienen una calidad de vida superior a la de tiempos pasados, por lo que son más exigentes con los productos que compran y consumen diariamente. Gracias a ello, los alimentos producidos en la actualidad son el resultado de la integración exitosa de los métodos más avanzados de la tecnología y la innovación para la producción de alimentos, combinados con las técnicas más modernas utilizadas en su almacenamiento y distribución.
