@@ -10,27 +10,27 @@
     .fondo-pasos.mn.p-5
       .tarjeta.tarjeta--gris.p-4.mb-5
         LineaTiempoC.color-acento-contenido
-          .row.justify-content-center(titulo="Uso de recipientes cerrados")
+          .row.justify-content-center(titulo="1")
             .col-lg-7.mb-4.mb-md-0
               h5 Uso de recipientes cerrados
               p Los alimentos deben ser almacenados en recipientes cerrados; en lo posible, utilizar los de tipo hermético para evitar el contacto con el ambiente que los rodea y con esto el ingreso de microbios.
             .col-lg-4: img(src='@/assets/curso/temas/45.png', alt='')
-          .row.justify-content-center(titulo="Almacenamiento refrigerado")
+          .row.justify-content-center(titulo="2")
             .col-lg-7.mb-4.mb-md-0
               h5 Almacenamiento refrigerado
               p Los alimentos como vegetales, carnes y otros requieren de almacenamiento refrigerado; lo ideal es mantenerlos a una temperatura inferior a los 5 ºC.
             .col-lg-4: img(src='@/assets/curso/temas/46.png', alt='')
-          .row.justify-content-center(titulo="Separación de alimentos cocidos y crudos")
+          .row.justify-content-center(titulo="3")
             .col-lg-7.mb-4.mb-md-0
               h5 Separación de alimentos cocidos y crudos
               p Los alimentos ya cocinados deben almacenarse separados de los alimentos crudos para evitar la contaminación cruzada, que consiste en el paso de microbios desde un alimento crudo a uno ya cocinado.
             .col-lg-4: img(src='@/assets/curso/temas/47.png', alt='')
-          .row.justify-content-center(titulo="Mantenimiento de temperatura caliente")
+          .row.justify-content-center(titulo="4")
             .col-lg-7.mb-4.mb-md-0
               h5 Mantenimiento de temperatura caliente
               p Cuando se va a almacenar un alimento cocinado que requiere permanecer caliente, se procura mantenerlo a una temperatura superior a los 65 ºC.
             .col-lg-4: img(src='@/assets/curso/temas/48.png', alt='')
-          .row.justify-content-center(titulo="Evitar almacenamiento prolongado")
+          .row.justify-content-center(titulo="5")
             .col-lg-7.mb-4.mb-md-0
               h5 Evitar almacenamiento prolongado
               p No se recomienda almacenar la comida durante largos periodos de tiempo. Deben vigilarse siempre las fechas de vencimiento de los alimentos perecederos.
@@ -157,7 +157,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p.mb-0 La técnica de refrigeración debe aplicarse lo más pronto posible desde el momento en que se obtienen las canales. Esto significa que esta operación debe realizarse desde el lugar donde fue sacrificado el animal y en el transporte para llegar a los lugares donde va a ser comercializada.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/82.svg', alt='')
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/82.svg', alt='')
     .titulo-tres: h3 Duración de almacenamiento en refrigeración
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
