@@ -32,16 +32,16 @@
             .d-inline-block.p-1(style="background-color: #1a592c ")
               h5.text-white.mb-0.mx-4 Refrigeración
           p.text-center Mantener los alimentos a temperaturas adecuadas retrasa el crecimiento de bacterias y otros patógenos.
-    p.mb-5(data-aos='fade-right') El consumo de agua o leche cruda y de sus derivados no pasteurizados es perjudicial para la salud de los consumidores, porque pueden transmitir enfermedades de origen alimentario, como ya se explicó anteriormente.      
+    p.mb-5(data-aos='fade-right') El consumo de agua o leche cruda y de sus derivados no pasteurizados es perjudicial para la salud de los consumidores, porque pueden transmitir enfermedades de origen alimentario, como ya se explicó anteriormente.     
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-xl-7.col-lg-8
         .tarjeta(style="background-color: #ece4d8")
           .row.justify-content-center
-            .col-lg-4.d-none.d-lg-block: img.m-lg-0.m-4(src='@/assets/curso/temas/29.png', alt='')
-            .col-lg-8
+            .col-xl-3.col-xl-4.col-4.fondo-4.d-none.d-md-flex                       
+            .col
               .p-4
                 h5 Agua y leche cruda 
-                p.mb-0 Estos productos deben ser pasteurizados para eliminar posibles patógenos que puedan causar enfermedades.
+                p.mb-0 Estos productos deben ser pasteurizados para eliminar posibles patógenos que puedan causar enfermedades.    
     p.mb-5(data-aos='fade-right') El almacenamiento impropio y la falta de control de los roedores en los lugares donde se guardan los alimentos pueden provocar la aparición de enfermedades y parásitos.
     .row.justify-content-center.mb-5
       .col-lg-3.mb-lg-0.mb-3

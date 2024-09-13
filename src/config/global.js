@@ -89,7 +89,7 @@ export default {
           {
             numero: '3.2',
             titulo: 'Almacenamiento en frío',
-            hash: 't_3_1',
+            hash: 't_3_2',
           },
         ],
       },
@@ -145,7 +145,7 @@ export default {
       referencia:
         'Organización Panamericana de la Salud. (2014). <i>Manual para manipuladores de alimentos.</i> Organización Panamericana de la Salud.',
       tipo: 'Documento',
-      descarga:
+      link:
         'https://www3.paho.org/hq/dmdocuments/manual-manipuladores-alimentos-2014.pdf',
     },
     {
@@ -167,7 +167,7 @@ export default {
       referencia:
         'Alimentos Cloud (s.f.). Manipulación segura de alimentos. Curso de Manipulador de Alimentos. [Podcast]. YouTube.',
       tipo: 'Podcast',
-      descarga: 'https://music.youtube.com/watch?v=6FFMBqzVw30&feature=shared',
+      link: 'https://music.youtube.com/watch?v=6FFMBqzVw30&feature=shared',
     },
     {
       tema: 'Preparación de alimentos',
@@ -181,7 +181,7 @@ export default {
       referencia:
         'Ministerio de Salud y Protección Social. (s.f.). <i>Guía de inocuidad de alimentos en establecimientos de almacenamiento.</i>',
       tipo: 'Guía',
-      descarga:
+      link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-establecimientos-almacenamiento.pdf',
     },
   ],

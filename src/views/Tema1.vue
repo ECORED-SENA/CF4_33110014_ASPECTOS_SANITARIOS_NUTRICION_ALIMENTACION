@@ -31,46 +31,60 @@
             .col-lg-8
               .p-4.d-flex.align-items-center
                 p.mb-0 Esto se puede demostrar con un sencillo experimento: cubriendo los ojos, tapando la nariz y probando dos helados. Se comprobará que bajo estas condiciones no se puede distinguir con facilidad entre un helado de vainilla y uno de chocolate.
+
     p.mb-5(data-aos='fade-right') En la naturaleza, solo existen cuatro sabores fundamentales:
-    img(src='@/assets/curso/temas/5.svg', alt='').mb-4
+    .row.justify-content-center.mb-4
+      .col-lg-2.col-md-5.col-5
+        img(src='@/assets/curso/temas/5A.png', alt='Imagen que presenta los 4 sabores fundamentales.').mb-2
+        p.text-center #[strong Ácido]
+      .col-lg-2.col-md-5.col-5
+        img(src='@/assets/curso/temas/5B.png', alt='Imagen que presenta los 4 sabores fundamentales.').mb-2
+        p.text-center #[strong Salado]
+      .col-lg-2.col-md-5.col-5
+        img(src='@/assets/curso/temas/5C.png', alt='Imagen que presenta los 4 sabores fundamentales.').mb-2
+        p.text-center #[strong Amargo]
+      .col-lg-2.col-md-5.col-5
+        img(src='@/assets/curso/temas/5D.png', alt='Imagen que presenta los 4 sabores fundamentales.').mb-2
+        p.text-center #[strong Dulce]
+        
     p.mb-5(data-aos='fade-right') Es importante notar que algunas personas tienen dificultades para percibir el sabor de los alimentos, así como para distinguir los colores, lo que afecta en gran medida su percepción del gusto. El sentido del olor y del gusto son sentidos químicos, siendo #[strong el sentido del olfato 2,500 veces más sensible que el sentido del gusto.]
       br
       br
       |La clasificación común de los olores incluye:
     .row.justify-content-center.mb-3
       .col-lg-2.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border 2px solid white ")
+        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border: 3px solid white ")
           .row.justify-content-center.mb-3
             .col-6: img(src='@/assets/curso/temas/6.svg', alt='')
           h5.text-center Olores a tierra
       .col-lg-2.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border 2px solid white ")
+        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border: 3px solid white ")
           .row.justify-content-center.mb-3
             .col-6: img(src='@/assets/curso/temas/7.svg', alt='')
           h5.text-center Fruta
       .col-lg-2.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border 2px solid white ")
+        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border: 3px solid white ")
           .row.justify-content-center.mb-3
             .col-6: img(src='@/assets/curso/temas/8.svg', alt='')
           h5.text-center Flores
       .col-lg-2.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border 2px solid white ")
+        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border: 3px solid white ")
           .row.justify-content-center.mb-3
             .col-6: img(src='@/assets/curso/temas/9.svg', alt='')
           h5.text-center Pescado
     .row.justify-content-center.mb-3
       .col-lg-2.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border 2px solid white ")
+        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border: 3px solid white ")
           .row.justify-content-center.mb-3
             .col-6: img(src='@/assets/curso/temas/10.svg', alt='')
           h5.text-center Especias
       .col-lg-2.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border 2px solid white ")
+        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border: 3px solid white ")
           .row.justify-content-center.mb-3
             .col-6: img(src='@/assets/curso/temas/11.svg', alt='')
           h5.text-center Pútrido
       .col-lg-2.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border 2px solid white ")
+        .tarjeta.p-4.h-100(style="background-color: #acdbb9; border: 3px solid white ")
           .row.justify-content-center.mb-3
             .col-6: img(src='@/assets/curso/temas/12.svg', alt='')
           h5.text-center Aceitoso
