@@ -66,7 +66,7 @@ export default {
           {
             numero: '2.1',
             titulo: 'Precauciones en la manipulación',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
           {
             numero: '2.2',
@@ -166,7 +166,7 @@ export default {
       tema: 'Precauciones en la manipulación',
       referencia:
         'Alimentos Cloud (s.f.). Manipulación segura de alimentos. Curso de Manipulador de Alimentos. [Podcast]. YouTube.',
-      tipo: 'Podcast',
+      tipo: 'Pódcast',
       link: 'https://music.youtube.com/watch?v=6FFMBqzVw30&feature=shared',
     },
     {

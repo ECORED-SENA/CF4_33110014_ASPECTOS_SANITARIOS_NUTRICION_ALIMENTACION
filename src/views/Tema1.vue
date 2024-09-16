@@ -194,10 +194,7 @@
       .col-lg-6.mb-lg-0.mb-3
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--ocre")
           .p-4(titulo="Calidad de los aceites comestibles")
-            ul.lista-ul--color
-              li.d-flex
-                i.fas.fa-check-circle
-                p.mb-0 Los aceites de alta calidad tienen un sabor dulce y una apariencia brillante.
+            p.mb-0 Los aceites de alta calidad tienen un sabor dulce y una apariencia brillante.
           .p-4(titulo="Descomposición y sabor a rancio")
             p.mb-0 Las grasas y aceites descompuestos se detectan fácilmente por su sabor a rancio.
           .p-4(titulo="Estabilidad en ausencia de oxígeno")
