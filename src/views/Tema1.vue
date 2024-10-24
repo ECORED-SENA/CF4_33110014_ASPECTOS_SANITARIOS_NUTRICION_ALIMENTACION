@@ -100,7 +100,7 @@
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta.pb-4.overflow-hidden(style="background-color: #dbeceb ")
           .p-2(style="background-color: #275857").mb-4
-            h5.text-center.text-white.mb-0 Sensación de calor
+            h5.text-center.text-white.mb-0 Sensación de frío
           .row.justify-content-center.mb-3
             .col-3: img(src='@/assets/curso/temas/14.svg', alt='')
           p.mb-0.text-center Cuando se come algo mentolado.
